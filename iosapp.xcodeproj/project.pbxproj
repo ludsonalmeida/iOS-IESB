@@ -14,6 +14,8 @@
 		8370FC2F1D5BEB5B001F2CFA /* iosapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8370FC2D1D5BEB5B001F2CFA /* iosapp.xcdatamodeld */; };
 		8370FC311D5BEB5B001F2CFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8370FC301D5BEB5B001F2CFA /* Assets.xcassets */; };
 		8370FC341D5BEB5B001F2CFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8370FC321D5BEB5B001F2CFA /* LaunchScreen.storyboard */; };
+		8370FC3D1D5BFBC5001F2CFA /* SegundaTelaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8370FC3C1D5BFBC5001F2CFA /* SegundaTelaController.m */; };
+		8370FC401D5BFEF2001F2CFA /* TerceiraTelaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8370FC3F1D5BFEF2001F2CFA /* TerceiraTelaViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		8370FC301D5BEB5B001F2CFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8370FC331D5BEB5B001F2CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8370FC351D5BEB5B001F2CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8370FC3B1D5BFBC5001F2CFA /* SegundaTelaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundaTelaController.h; sourceTree = "<group>"; };
+		8370FC3C1D5BFBC5001F2CFA /* SegundaTelaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundaTelaController.m; sourceTree = "<group>"; };
+		8370FC3E1D5BFEF2001F2CFA /* TerceiraTelaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TerceiraTelaViewController.h; sourceTree = "<group>"; };
+		8370FC3F1D5BFEF2001F2CFA /* TerceiraTelaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TerceiraTelaViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,10 @@
 				8370FC351D5BEB5B001F2CFA /* Info.plist */,
 				8370FC2D1D5BEB5B001F2CFA /* iosapp.xcdatamodeld */,
 				8370FC211D5BEB5B001F2CFA /* Supporting Files */,
+				8370FC3B1D5BFBC5001F2CFA /* SegundaTelaController.h */,
+				8370FC3C1D5BFBC5001F2CFA /* SegundaTelaController.m */,
+				8370FC3E1D5BFEF2001F2CFA /* TerceiraTelaViewController.h */,
+				8370FC3F1D5BFEF2001F2CFA /* TerceiraTelaViewController.m */,
 			);
 			path = iosapp;
 			sourceTree = "<group>";
@@ -153,9 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8370FC291D5BEB5B001F2CFA /* ViewController.m in Sources */,
+				8370FC3D1D5BFBC5001F2CFA /* SegundaTelaController.m in Sources */,
 				8370FC261D5BEB5B001F2CFA /* AppDelegate.m in Sources */,
 				8370FC231D5BEB5B001F2CFA /* main.m in Sources */,
 				8370FC2F1D5BEB5B001F2CFA /* iosapp.xcdatamodeld in Sources */,
+				8370FC401D5BFEF2001F2CFA /* TerceiraTelaViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
